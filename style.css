@@ -1,20 +1,32 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(assets/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url(assets/Fonts/Roboto-ThinItalic.ttf);
+}
+
 header {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main {
     padding: 30px;
-    margin: 120px;
+    margin: 155px;
 
 }
 
 .header-logo {
     position: absolute;
     top: 35px;
-    left: 45px;
-    margin-left: 300px;
+    left: 25px;
+    margin-left: 220px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-logo button {
@@ -24,6 +36,7 @@ header {
     border-style: none;
     width: 80px;
     height: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .links {
@@ -32,38 +45,7 @@ header {
     right: 45px;
     margin-right: 300px;
     text-align: right;
-
 }
-
-
-/* .main-img {
-    position: absolute;
-    top: 135px;
-    right: 85px;
-    width: 520px;
-    left: 580px;
-
-} */
-
-
-/* .info {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    gap: 500px;
-    margin: 120px;
-}
-
-
-
-figure img {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    width: 125px;
-} */
-
-
 
 .images {
     display: flex;
@@ -72,6 +54,7 @@ figure img {
     padding: 5px;
     justify-content: center;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -79,14 +62,13 @@ figure img {
     float: left;
     width: 25%;
     padding: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .column,
 img {
-
     border-radius: 10px;
     width: 125px;
-
 }
 
 .images::after {
@@ -99,10 +81,14 @@ img {
     height: 200px;
     text-align: center;
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
     margin-bottom: 70px;
+}
+
+blockquote {
+    padding-top: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'Roboto-ThinItalic', sans-serif;
 }
 
 .sign-up {
@@ -118,6 +104,8 @@ img {
     margin-bottom: 70px;
     display: flex;
     justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .sign-up-text {
@@ -137,13 +125,14 @@ img {
     height: 30px;
     float: right;
     top: 35%;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
     background-color: #1f2937;
     color: white;
     height: 70px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 footer,
@@ -151,28 +140,3 @@ h4 {
     display: flex;
     justify-content: center;
 }
-
-/*  */
-
-/* .main-header {
-    font-size: 46px;
-}
-
-
-.back {
-    background-color: rgba(17, 16, 16, 0.488);
-}
-
-.container { */
-/* display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
-/* left: 85px;
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-.container button {
-    width: 75px;
-
-}*/
