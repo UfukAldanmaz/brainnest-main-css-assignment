@@ -17,16 +17,19 @@ header {
 
 .main {
     padding: 30px;
-    margin: 170px;
+    margin: 160px;
 
 }
 
 .header-logo {
     position: absolute;
-    top: 1px;
+    top: 10px;
     left: 235px;
 }
 
+a {
+    margin-right: 13px;
+}
 
 .main-btn {
     background-color: #3882f6;
