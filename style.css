@@ -24,7 +24,8 @@ header {
 .header-logo {
     position: absolute;
     top: 10px;
-    left: 235px;
+    left: 200px;
+
 }
 
 a {
@@ -45,13 +46,13 @@ a {
     position: absolute;
     top: 35px;
     right: 45px;
-    margin-right: 200px;
+    margin-right: 140px;
     text-align: right;
 }
 
 .main-img {
     position: absolute;
-    margin-left: 520px;
+    margin-left: 580px;
     top: 95px;
 }
 
