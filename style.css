@@ -81,11 +81,6 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
-.images::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 .quote {
     height: 300px;
